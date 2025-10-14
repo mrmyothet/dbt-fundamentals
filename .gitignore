@@ -11,3 +11,5 @@ venv/
 env/
 **/*.duckdb
 **/*.duckdb.wal
+
+nyc_yellow_taxi/yellow_tripdata_2023-01.parquet
