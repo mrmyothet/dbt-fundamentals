@@ -1,0 +1,5 @@
+SELECT 
+  {% for column in ['start_date', 'update_date', 'end_date'] %}
+  COALESCE({{column}}, '2025-01-01') as {{column}}
+  {% endfor %}
+FROM Events 
