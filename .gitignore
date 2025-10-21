@@ -13,3 +13,4 @@ env/
 **/*.duckdb.wal
 
 nyc_yellow_taxi/yellow_tripdata_2023-01.parquet
+nyc_yellow_taxi/green_tripdata_2023-01.parquet
