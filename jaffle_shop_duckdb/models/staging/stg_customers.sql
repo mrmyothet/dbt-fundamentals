@@ -1,6 +1,6 @@
-with raw_customer as (
+with raw_customers as (
     select *
     from {{ ref('raw_customers') }}
 )
 
-select * from raw_customer
+select * from raw_customers
