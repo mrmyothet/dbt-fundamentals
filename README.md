@@ -20,3 +20,13 @@
 - [YouTube - How to Audit Your Directed Acyclic Graph (DAG) and Create Modular Data Models](https://www.youtube.com/watch?v=5W6VrnHVkCA)
 - [Dbt Node selection](https://docs.getdbt.com/reference/node-selection/syntax)
 - [Dbt Graph Operator](https://docs.getdbt.com/reference/node-selection/graph-operators)
+
+### Courses 
+- [Introduction to SQL](https://learn.getdbt.com/courses/introduction-to-sql)
+- [dbt Fundamentals (dbt Studio)](https://learn.getdbt.com/learn/course/dbt-fundamentals)
+- [dbt Fundamentals (VS Code)](https://learn.getdbt.com/courses/dbt-fundamentals-vs-code)
+- [Jinja, Macros, and Packages (dbt Studio)](https://learn.getdbt.com/learn/course/jinja-macros-and-packages)
+
+### Kimball Dimensional Modelling
+- [Kimball's Dimensional Data Modeling](https://www.holistics.io/books/setup-analytics/kimball-s-dimensional-data-modeling/)
+- [Guide to dimensional modeling](https://www.getdbt.com/blog/guide-to-dimensional-modeling)
