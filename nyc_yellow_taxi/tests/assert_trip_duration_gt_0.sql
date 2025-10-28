@@ -1,3 +1,3 @@
 select * 
-from taxi_rides_raw
+from {{ ref('taxi_rides_raw') }}
 where tpep_pickup_datetime = tpep_dropoff_datetime
