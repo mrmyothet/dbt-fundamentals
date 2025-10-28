@@ -1,9 +1,9 @@
 sources:
   - name: external_jaffle_shop
     # use an absolute path so dbt can always find the file when run from the project root
-    database: '/workspaces/dbt-fundamentals/jaffle_shop_practice/data/raw_jaffle_shop.duckdb'
+    database: "/workspaces/dbt-fundamentals/jaffle_shop_practice/data/raw_jaffle_shop.duckdb"
     schema: main
-    tables: 
+    tables:
       - name: raw_customers
       - name: raw_orders
   # Optional: add another external file if you need a second source
