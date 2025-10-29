@@ -1,19 +1,19 @@
 nyc_yellow_taxi:
   outputs:
-    dev:
-      type: "bigquery"
-      method: "oauth"
-      project: "ny-rides-mt"
-      dataset: "ny_rides_ds"
-      threads: 4
-      timeout_seconds: 300
-      location: "asia-southeast1"
-      priority: "interactive"
-
     # dev:
-    #   type: duckdb
-    #   path: dev.duckdb
-    #   threads: 1
+    #   type: "bigquery"
+    #   method: "oauth"
+    #   project: "ny-rides-mt"
+    #   dataset: "ny_rides_ds"
+    #   threads: 4
+    #   timeout_seconds: 300
+    #   location: "asia-southeast1"
+    #   priority: "interactive"
+
+    dev:
+      type: duckdb
+      path: dev.duckdb
+      threads: 1
 
     # prod:
     #   type: duckdb
