@@ -23,7 +23,10 @@ seeds:
   +docs:
     node_color: "#cd7f32"
 
+# project-level pre-hook
 models:
+  # pre-hook:
+  # - "ATTACH 'data/raw_jaffle_shop.duckdb' AS external_jaffle_shop"
   jaffle_shop:
     +materialized: table
     staging:
@@ -34,3 +37,5 @@ models:
       node_color: "gold"
     marts:
       materialized: table
+on-run-start:
+  - "ATTACH 'data/raw_jaffle_shop.duckdb' AS external_jaffle_shop"
