@@ -2,12 +2,12 @@ looker_ecommerce:
   outputs:
     dev:
       type: duckdb
-      path: dev.duckdb
+      path: looker.duckdb
       threads: 1
 
     prod:
       type: duckdb
-      path: prod.duckdb
+      path: looker_prod.duckdb
       threads: 4
 
   target: dev
