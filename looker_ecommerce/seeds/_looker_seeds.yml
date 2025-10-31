@@ -1,0 +1,14 @@
+version: 2
+
+seeds:
+  - name: looker__distribution_centers
+    description: "Seed data for distribution centers"
+    columns:
+      - name: id
+        description: "Unique identifier for each distribution center"
+      - name: name
+        description: "Name of the distribution center"
+      - name: latitude
+        description: "Latitude coordinate of the distribution center"
+      - name: longitude
+        description: "Longitude coordinate of the distribution center"
