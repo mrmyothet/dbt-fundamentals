@@ -1,0 +1,10 @@
+{% animals = ['lemur', 'dingo', 'rhino', 'dog'] %}
+
+{{ animals[0] }}
+{{ animals[1] }}
+{{ animals[2] }}
+{{ animals[3] }}
+
+{% for animal in animals %}
+  My favorite animal is {{ animal }}!
+{% endfor %}
