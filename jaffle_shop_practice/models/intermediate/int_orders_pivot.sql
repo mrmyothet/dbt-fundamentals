@@ -9,7 +9,7 @@ pivoted as (
         order_id,
         sum(
             case when payment_method = 'bank_transfer' then amount else 0 end
-        ) as bank_transfer_amount
+        ) as bank_transfer
     from payments
     group by 1
 )
