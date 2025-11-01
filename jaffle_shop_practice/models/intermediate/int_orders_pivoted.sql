@@ -17,7 +17,9 @@ pivoted as (
                         then amount else
                         0
                 end
-            ) as {{ payment_method }}_amount,
+            ) as {{ payment_method }}_amount
+
+        {% if not loop.last %},{% endif %}
         {% endfor %}
 
     from payments
