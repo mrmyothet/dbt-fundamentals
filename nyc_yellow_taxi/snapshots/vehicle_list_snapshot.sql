@@ -9,5 +9,5 @@
     )
 }}
 
-select * from raw.vehicle_list
+select * from {{ source('raw', 'vehicle_list') }}
 {% endsnapshot %}
