@@ -31,8 +31,15 @@ models:
     +materialized: table
     staging:
       +materialized: view
+      +tags: ["stg", "staging", "jaffle"]
       +docs:
         node_color: "silver"
+    intermediate:
+      +materialized: view
+      +tags: ["int", "intermediate", "jaffle"]
+    marts: 
+      +materialized: table
+      +tags: ["marts", "jaffle"]
     +docs:
       node_color: "gold"
     marts:

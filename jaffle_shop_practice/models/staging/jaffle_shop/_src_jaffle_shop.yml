@@ -5,3 +5,9 @@ sources:
     tables:
       - name: raw_customers
       - name: raw_orders
+  - name: another_jaffle_shop
+    # database: "data/another_jaffle_shop.duckdb"
+    schema: main
+    tables:
+      - name: raw_customers
+      - name: raw_orders
