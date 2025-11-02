@@ -20,6 +20,9 @@
 - [YouTube - How to Audit Your Directed Acyclic Graph (DAG) and Create Modular Data Models](https://www.youtube.com/watch?v=5W6VrnHVkCA)
 - [Dbt Node selection](https://docs.getdbt.com/reference/node-selection/syntax)
 - [Dbt Graph Operator](https://docs.getdbt.com/reference/node-selection/graph-operators)
+- [About dbt build command](https://docs.getdbt.com/reference/commands/build)
+- [About dbt compile command](https://docs.getdbt.com/reference/commands/compile)
+- [Tags](https://docs.getdbt.com/reference/resource-configs/tags)
 
 ### Courses 
 - [Introduction to SQL](https://learn.getdbt.com/courses/introduction-to-sql)
