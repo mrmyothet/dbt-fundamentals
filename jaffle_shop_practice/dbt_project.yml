@@ -19,14 +19,7 @@ clean-targets:
 
 require-dbt-version: [">=1.0.0", "<2.0.0"]
 
-seeds:
-  +docs:
-    node_color: "#cd7f32"
-
-# project-level pre-hook
 models:
-  # pre-hook:
-  # - "ATTACH 'data/raw_jaffle_shop.duckdb' AS external_jaffle_shop"
   jaffle_shop:
     +materialized: table
     staging:
@@ -37,12 +30,10 @@ models:
     intermediate:
       +materialized: view
       +tags: ["int", "intermediate", "jaffle"]
-    marts: 
+    marts:
       +materialized: table
       +tags: ["marts", "jaffle"]
     +docs:
       node_color: "gold"
-    marts:
-      materialized: table
 on-run-start:
   - "ATTACH 'data/raw_jaffle_shop.duckdb' AS external_jaffle_shop"
