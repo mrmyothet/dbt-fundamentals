@@ -3,3 +3,5 @@ version: 2
 models:
   - name: stg_looker__distribution_centers
     description: distribution centers of looker ecommerce
+  - name: stg_looker__users
+    description: Users demographics and location information
