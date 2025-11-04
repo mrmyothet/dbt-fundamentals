@@ -50,3 +50,27 @@ models:
         description: Number of orders returned
       - name: num_web_sessions
         description: Number of web sessions
+
+  - name: products
+    description: Data mart for product-related dimensions and facts, for analytical and reporting purposes
+    columns:
+      - name: product_id
+        description: Unique ID for the product
+        data_tests:
+          - unique
+          - not_null
+          - relationships:
+              to: ref('stg_looker__products')
+              field: id
+      - name: product_name
+        description: Product name
+      - name: product_category
+        description: Product category
+        data_tests:
+          - not_null
+      - name: sales_amount
+        description: Total sales amount attributed to this product
+      - name: cost_of_goods_sold
+        description: Total cost of goods sold attributed to this product
+      - name: profit
+        description: Profit, calculated by sales amount minus cost of goods sold
