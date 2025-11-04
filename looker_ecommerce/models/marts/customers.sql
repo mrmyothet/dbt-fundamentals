@@ -52,7 +52,7 @@ WITH customer_base AS (
     SELECT 
         user_id,
         COUNT(DISTINCT session_id) AS num_web_sessions,
-    FROM {{ ref('stg_looker__web_traffic') }}
+    FROM {{ ref('stg_looker__events') }}
     GROUP BY 1
 )
 

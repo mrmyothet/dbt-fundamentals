@@ -9,7 +9,7 @@ models:
         data_tests:
           - unique
           - not_null
-          - relationship:
+          - relationships:
               to: ref('stg_looker__users')
               field: id
       - name: customer_first_name
