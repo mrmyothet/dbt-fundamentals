@@ -20,7 +20,7 @@ WITH product_base AS (
         product_id,
         SUM(sale_price) AS sales_amount
     FROM {{ ref('stg_looker__order_items') }}
-    GROUP BY product_id
+    GROUP BY product_id   
 )
 
 SELECT 

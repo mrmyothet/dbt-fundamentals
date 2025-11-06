@@ -44,7 +44,7 @@ WITH customer_base AS (
             CASE WHEN status = 'Returned'
             THEN order_id
             END) AS num_orders_returned,
-    FROM  {{ ref('stg_looker__orders') }}
+    FROM {{ ref('stg_looker__orders') }}
     GROUP BY 1
 )
 
