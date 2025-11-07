@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: country
+  - name: league
+  - name: match
+  - name: team

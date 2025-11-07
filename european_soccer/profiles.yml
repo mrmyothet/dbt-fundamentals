@@ -1,0 +1,7 @@
+european_soccer:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "european_soccer.duckdb"
+      threads: 24
