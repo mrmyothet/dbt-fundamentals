@@ -1,0 +1,4 @@
+[0m12:09:35  Running with dbt=1.9.4
+[0m12:09:36  Registered adapter: duckdb=1.9.1
+[0m12:09:40  Found 16 models, 4 seeds, 1 operation, 20 data tests, 4 sources, 620 macros
+[0m12:09:40  The temperature is high. 
