@@ -17,8 +17,8 @@ renamed as (
 
         -- `amount` is currently stored in cents, so we convert it to dollars
         -- amount / 100 as amount
-        {{ cents_to_dollars("amount") }} as amount,
-
+        {# {{ cents_to_dollars("amount") }} as amount, #}
+        {{ cents_to_dollars('amount', 4) }} as amount,
     from source
 
 )
