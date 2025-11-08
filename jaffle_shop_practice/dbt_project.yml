@@ -35,5 +35,7 @@ models:
       +tags: ["marts", "jaffle"]
     +docs:
       node_color: "gold"
+    # snowflake_spend:
+    #   enabled: true
 on-run-start:
   - "ATTACH 'data/raw_jaffle_shop.duckdb' AS external_jaffle_shop"
