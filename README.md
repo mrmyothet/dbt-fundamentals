@@ -23,6 +23,9 @@
 - [About dbt build command](https://docs.getdbt.com/reference/commands/build)
 - [About dbt compile command](https://docs.getdbt.com/reference/commands/compile)
 - [Tags](https://docs.getdbt.com/reference/resource-configs/tags)
+- [log](https://docs.getdbt.com/reference/dbt-jinja-functions/log)
+- [About dbt run-operation command](https://docs.getdbt.com/reference/commands/run-operation)
+- [Custom schemas](https://docs.getdbt.com/docs/build/custom-schemas)
 
 ### Courses 
 - [Introduction to SQL](https://learn.getdbt.com/courses/introduction-to-sql)
