@@ -1,9 +1,9 @@
-name: 'jaffle_shop'
+name: "jaffle_shop"
 
 config-version: 2
-version: '0.1'
+version: "0.1"
 
-profile: 'jaffle_shop'
+profile: "jaffle_shop"
 
 model-paths: ["models"]
 seed-paths: ["seeds"]
@@ -13,17 +13,31 @@ macro-paths: ["macros"]
 
 target-path: "target"
 clean-targets:
-    - "target"
-    - "dbt_modules"
-    - "logs"
+  - "target"
+  - "dbt_modules"
+  - "logs"
 
 require-dbt-version: [">=1.0.0", "<2.0.0"]
 
-seeds: 
+seeds:
   jaffle_shop:
     # +schema: raw
     +docs:
-      node_color: '#cd7f32'
+      node_color: "#cd7f32"
+    # Explicit column types for seeds to avoid CSV conversion errors when values include
+    # decimals or exceed INTEGER bounds. Adjust per-column as needed.
+    films:
+      +column_types:
+        release_year: DOUBLE
+        duration: DOUBLE
+        gross: DOUBLE
+        budget: DOUBLE
+
+    reviews:
+      +strict_mode: false
+      +delimiter: ","
+      +quote: '"'
+      +escape: '\'
 
 models:
   jaffle_shop:
@@ -31,6 +45,6 @@ models:
     staging:
       +materialized: view
       +docs:
-        node_color: 'silver'
+        node_color: "silver"
     +docs:
-      node_color: 'gold'
+      node_color: "gold"
