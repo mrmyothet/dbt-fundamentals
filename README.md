@@ -32,7 +32,13 @@
 - [dbt Fundamentals (dbt Studio)](https://learn.getdbt.com/learn/course/dbt-fundamentals)
 - [dbt Fundamentals (VS Code)](https://learn.getdbt.com/courses/dbt-fundamentals-vs-code)
 - [Jinja, Macros, and Packages (dbt Studio)](https://learn.getdbt.com/learn/course/jinja-macros-and-packages)
+- [Incremental Models](https://learn.getdbt.com/learn/course/incremental-models)
+- [Materialization](https://learn.getdbt.com/learn/course/materialization-fundamentals)
 
 ### Kimball Dimensional Modelling
 - [Kimball's Dimensional Data Modeling](https://www.holistics.io/books/setup-analytics/kimball-s-dimensional-data-modeling/)
 - [Guide to dimensional modeling](https://www.getdbt.com/blog/guide-to-dimensional-modeling)
+- [Building a Kimball dimensional model with dbt](https://docs.getdbt.com/blog/kimball-dimensional-model)
+
+### Slides 
+- [dbt - Dimensional Modelling](https://docs.google.com/presentation/d/16kAWAMhNMsCD3ZEfVj_ZaQ5-bpzWgjhajRqkw0XEPGQ/edit?usp=sharing)
