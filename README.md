@@ -42,3 +42,9 @@
 
 ### Slides 
 - [dbt - Dimensional Modelling](https://docs.google.com/presentation/d/16kAWAMhNMsCD3ZEfVj_ZaQ5-bpzWgjhajRqkw0XEPGQ/edit?usp=sharing)
+
+### Discussion 
+- [dbt in Action #1: Fundamentals](https://pipeline2insights.substack.com/p/dbt-in-action-1-fundamentals)
+- [dbt in Action #2: Seeds, Tests and Macros](https://pipeline2insights.substack.com/p/dbt-in-action-2-seeds-tests-and-macros)
+- [dbt in Action #3: Analyses, Materialisations and Incremental Models](https://pipeline2insights.substack.com/p/dbt-in-action-3-analyses-materialisations-incremental-strategies)
+- [dbt in Action #4: Snapshots and Slowly Changing Dimensions](https://pipeline2insights.substack.com/p/dbt-in-action-4-dbt-snapshots-and-slowly-changing-dimentions-type-two)
