@@ -26,6 +26,9 @@
 - [log](https://docs.getdbt.com/reference/dbt-jinja-functions/log)
 - [About dbt run-operation command](https://docs.getdbt.com/reference/commands/run-operation)
 - [Custom schemas](https://docs.getdbt.com/docs/build/custom-schemas)
+- [dbt Incremental: Choosing the Right Strategy — P1](https://medium.com/refined-and-refactored/dbt-incremental-choosing-the-right-strategy-p1-6113d51898ec)
+- [Incremental Strategy](https://learn.getdbt.com/learn/course/incremental-models/incremental-strategy-30min/incremental-strategy?page=11)
+- [dbt Incremental Models](https://paing.blog/data_engineering/dbt/learning_path/5.3_dbt+Incremental+Models)
 
 ### Courses 
 - [Introduction to SQL](https://learn.getdbt.com/courses/introduction-to-sql)
