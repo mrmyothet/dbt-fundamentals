@@ -1,0 +1,5 @@
+sources:
+  - name: src_events
+    schema: main
+    tables:
+      - name: user_events
